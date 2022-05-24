@@ -1,0 +1,234 @@
+nav{
+	background: black;
+	padding: 10px 0;
+}
+header{
+	background: rgb(0,0,0,0.4);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.red{
+	color: red;
+}
+.category{
+	display: flex;
+	justify-content: space-between;
+}
+.category a{
+	color: white;
+	text-decoration: none;
+}
+.category a:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 0%;
+	background: white;
+	transition: 0.5s;
+}
+.category a:hover:after{
+	width: 100%;
+}
+.logo_title{
+	font-size: 18px;
+	font-weight: 300;
+}
+.phone_text{
+	padding-top: 7px;
+}
+.phone_number{
+	font-size: 18px;
+	font-weight: 500;
+}
+.call{
+	background: #ffcc00;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+	cursor: pointer;
+	box-shadow:  0px 0px 5px gray;
+}
+.call:hover{
+	background: #ffee11;
+}
+.promo{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: rgb(230,230,230);
+	background: url(img/promo_bg.png);
+	background-position: 70% 15%;
+}
+.promo_work{
+
+}
+.promo_work_descr{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 40px;
+}
+.promo_work_btn{
+	background: #ffcc00;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	border-radius: 7px;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 50px;
+	cursor: pointer;
+}
+.promo_work_btn:hover{
+	background: #ffee11;
+}
+.promo_pay_get{
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+}
+.promo_pay_price{
+	font-weight: 500;
+	font-size: 64px;
+	margin-top: 40px;
+}
+.comfort {
+	padding: 50px 0;
+}
+.comfort_header {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 38px;
+	text-align: center;
+}
+.comfort_item {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+.comfort_circle {
+	height: 110px;
+	width: 110px;
+	background: #ffcc00;
+	border-radius: 100%;
+	margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.comfort_descr .red {
+	font-size: 20px;
+	font-weight: 400;
+}
+.use {
+	padding: 50px 0;
+	background: rgb(230, 230, 230);
+}
+.use_header {
+	text-align: center;
+	font-weight: 700;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+.use_subheader {
+	text-align: center;
+	font-weight: 300;
+	font-size: 21px;
+}
+.use_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	margin-top: 30px;
+}
+.use_grid_item {
+	height: 280px;
+	background: #000;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.use_grid_item:hover {
+	transform: scale(1.05);
+	border-radius: 10px;
+	box-shadow: 0 0 15px black;
+	}
+.use_item_descr {
+	padding-top: 70px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+}
+.use_grid_circle {
+	background: #ffcc00;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: auto;
+	margin-top: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.use1{
+	background: url(img/use1.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use2{
+	background: url(img/use2.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use3{
+	background: url(img/use3.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use4{
+	background: url(img/use4.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use5{
+	background: url(img/use5.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use6{
+	background: url(img/use6.png);
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+.use1:hover{
+	background-size: 90%;
+}
+.use2:hover{
+	background-size: 90%;
+}
+.use3:hover{
+	background-size: 90%;
+}
+.use4:hover{
+	background-size: 90%;
+}
+.use5:hover{
+	background-size: 90%;
+}
+.use6:hover{
+	background-size: 90%;
+}
+footer {
+	text-align: center;
+	background: #000;
+	color: white;
+	font-size: 18px;
+	padding: 50px 0px;
+}
+footer a {
+	color: white;
+}
